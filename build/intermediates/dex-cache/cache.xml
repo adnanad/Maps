@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\pre-dexed\debug\classes-84653def894f2f656ff759afdf6f8d5ddeaddb10.jar"
+        jar="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.4.52\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+    <item
+        dex="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\pre-dexed\debug\AppNextSDK-b5f9e1bbdca80557328939ecafea7c3cc68a1a74.jar"
+        jar="D:\AndroidStudioWorkspace\Maps3\app\libs\AppNextSDK.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7ab9f1d6041fdca8c1bff7e9c0b8ac63051f3755"/>
+    <item
+        dex="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\pre-dexed\debug\easyfacebookandroidsdk_2.3 (1)-86d16ba5823014b0a9b40a9fe50b58c5f30c59cc.jar"
+        jar="D:\AndroidStudioWorkspace\Maps3\app\libs\easyfacebookandroidsdk_2.3 (1).jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e17c5c0c43deee07693af5703b7abb57f020c353"/>
+    <item
+        dex="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b7b22d45d71414c35efa40686184580609396fff.jar"
+        jar="D:\adt-bundle-windows-x86-20130522\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

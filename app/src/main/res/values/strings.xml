@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="map_key">AIzaSyA-0RFP4wGOWNar9RkUKcbEDOtNknrT-aY</string>
+
+    <string-array name="place_array">
+        <item>bank</item>
+        <item>bar</item>
+        <item>bus_station</item>
+        <item>cafe</item>
+        <item>school</item>
+        <item>store</item>
+        <item>food</item>
+        <item>movie_theater</item>
+        <item>train_station</item>
+        <item>airport</item>
+        <item>police</item>
+        <item>hospital</item>
+        <item>fire_station</item>
+        <item>gas_station</item>
+        <item>parking</item>
+        <item>place_of_worship</item>
+        <item>book_store</item>
+    </string-array>
+
+    <string name="title_activity_detail">Detail</string>
+
+</resources>

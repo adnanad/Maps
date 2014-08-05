@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AppNextSDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/AppNextSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

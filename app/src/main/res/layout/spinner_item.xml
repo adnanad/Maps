@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Place Found"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="@android:color/white"
+        android:padding="7dp"
+      	android:drawableRight="@drawable/grey_wash"
+		android:layout_marginLeft="12dp"
+		
+		android:drawableLeft="@drawable/grey_wash"
+		android:drawablePadding="7dp"
+	
+		
+	/>
+
+
