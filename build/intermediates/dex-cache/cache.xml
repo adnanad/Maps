@@ -2,28 +2,46 @@
 <pre-dex-items>
 
     <item
-        dex="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\pre-dexed\debug\classes-84653def894f2f656ff759afdf6f8d5ddeaddb10.jar"
-        jar="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.4.52\classes.jar"
+        dex="D:\krishan was here\Maps3\app\build\intermediates\pre-dexed\debug\android-support-v4-605fad4b757b75878cb5ce40d32fd459e2abf468.jar"
+        jar="D:\krishan was here\Maps3\app\libs\android-support-v4.jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+        revision="20.0.0"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f"/>
     <item
-        dex="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\pre-dexed\debug\AppNextSDK-b5f9e1bbdca80557328939ecafea7c3cc68a1a74.jar"
-        jar="D:\AndroidStudioWorkspace\Maps3\app\libs\AppNextSDK.jar"
+        dex="D:\krishan was here\Maps3\app\build\intermediates\pre-dexed\debug\easyfacebookandroidsdk_2.3 (1)-e595a4001eccbcc5fc3b6a871a709f784ee92020.jar"
+        jar="D:\krishan was here\Maps3\app\libs\easyfacebookandroidsdk_2.3 (1).jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="7ab9f1d6041fdca8c1bff7e9c0b8ac63051f3755"/>
-    <item
-        dex="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\pre-dexed\debug\easyfacebookandroidsdk_2.3 (1)-86d16ba5823014b0a9b40a9fe50b58c5f30c59cc.jar"
-        jar="D:\AndroidStudioWorkspace\Maps3\app\libs\easyfacebookandroidsdk_2.3 (1).jar"
-        jumboMode="false"
-        revision="19.1.0"
+        revision="20.0.0"
         sha1="e17c5c0c43deee07693af5703b7abb57f020c353"/>
     <item
-        dex="D:\AndroidStudioWorkspace\Maps3\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b7b22d45d71414c35efa40686184580609396fff.jar"
-        jar="D:\adt-bundle-windows-x86-20130522\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        dex="D:\krishan was here\Maps3\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e311e493b238b75da4095bd5ee7b69d76d73dc42.jar"
+        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
-        revision="19.1.0"
+        revision="20.0.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="D:\krishan was here\Maps3\app\build\intermediates\pre-dexed\debug\picasso-2.3.3-ab6eb77fd8ef4452e8ea01723f002d66ca9ec906.jar"
+        jar="D:\krishan was here\Maps3\app\libs\picasso-2.3.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1262995965440e28ba5c4d480c9c9ab4ccce84cc"/>
+    <item
+        dex="D:\krishan was here\Maps3\app\build\intermediates\pre-dexed\debug\classes-27a4ae13abfdd478d34fd7f7e51ecf5770d2e683.jar"
+        jar="D:\krishan was here\Maps3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\5.0.89\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa"/>
+    <item
+        dex="D:\krishan was here\Maps3\app\build\intermediates\pre-dexed\debug\appnextAPI-4e9127cab79ee1e7967088db8988c07adb355169.jar"
+        jar="D:\krishan was here\Maps3\app\libs\appnextAPI.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b054bc6a7e0f27e7283cf60b993d1f977b2889c6"/>
+    <item
+        dex="D:\krishan was here\Maps3\app\build\intermediates\pre-dexed\debug\AppNextSDK-679686a2cbdd3f0bc40453962b545baae18ba351.jar"
+        jar="D:\krishan was here\Maps3\app\libs\AppNextSDK.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7ab9f1d6041fdca8c1bff7e9c0b8ac63051f3755"/>
 
 </pre-dex-items>

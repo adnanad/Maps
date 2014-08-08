@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/card_bg"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@android:drawable/star_on"
+            android:layout_marginLeft="8dp"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Recommended App"
+            android:id="@+id/textView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/secondary_text_light"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_cancel"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_action_cancel"
+            android:layout_marginRight="8dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_weight="2"
+            android:layout_height="0dp">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/adView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true" />
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:weightSum="2"
+            android:padding="12dp"
+            android:showDividers="middle"
+            android:divider="#909090"
+            android:dividerPadding="16dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/frame_ly"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    >
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/progressBar"
+                        android:layout_gravity="center" />
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:id="@+id/img_small"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        />
+                </FrameLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/frame_ly"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:layout_marginLeft="30dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Install Now"
+                        android:id="@+id/textView2"
+                        android:textColor="@android:color/primary_text_light"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""
+                        android:id="@+id/textView3"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Install"
+                    android:textColor="#3498db"
+                    android:id="@+id/button1"
+                    android:layout_alignBottom="@+id/frame_ly"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/circlular_btn"
+
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/relativeLayout">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/img_small2"
+                    android:src="@drawable/contact"
+                    android:layout_alignTop="@+id/send_mail"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/img_small2"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:layout_marginLeft="30dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Send by email"
+                        android:id="@+id/textView4"
+                        android:textColor="@android:color/primary_text_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""
+                        android:id="@+id/textView5"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/plane"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/send_mail"
+                    android:padding="4dp"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

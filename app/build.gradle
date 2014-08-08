@@ -2,12 +2,12 @@ apply plugin: 'android'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion '19.1.0'
+    buildToolsVersion '20'
 
     defaultConfig {
         applicationId "com.example.maps"
         minSdkVersion 11
-        targetSdkVersion 17
+        targetSdkVersion 19
     }
 
     buildTypes {
@@ -19,8 +19,9 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:+'
     compile files('libs/easyfacebookandroidsdk_2.3 (1).jar')
     compile 'com.google.android.gms:play-services:+'
     compile files('libs/AppNextSDK.jar')
+    compile files('libs/appnextAPI.jar')
+    compile files('libs/picasso-2.3.3.jar')
 }
